@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="ToDoList.css">
+    
+</head>
+<body>
+    
+    <!--INPUT-->
+    <div id="input">
+        <h1>To Do List 2023</h1>
+        <div class="to-do-input">
+            <input type="text" class="task" id="task" placeholder="What you want to do ?" value="">
+            <button class="add btn" id="add"><i class="fa-solid fa-circle-plus"></i></button>
+            <div class="selection">
+                <select name="category" id="category" class="category">
+                    <option value="All">All</option>
+                    <option value="Completed">Completed</option>
+                    <option value="Incompleted">Incompleted</option>
+
+                </select>
+            </div>
+
+        </div>
+    </div>
+
+    <!--LIST-CONTAINER-->
+    <div id="container">
+        
+    </div>
+
+    <script src="ToDoList.js"></script>
+</body>
+</html>
